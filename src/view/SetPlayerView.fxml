@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="control.SetPlayerController">
+  <children>
+    <TextField fx:id="playerName" layoutX="201.0" layoutY="110.0" prefWidth="200.0" />
+    <ChoiceBox fx:id="playerColor" layoutX="265.0" layoutY="263.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Red" />
+          <String fx:value="Blue" />
+          <String fx:value="Green" />
+          <String fx:value="Yellow" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <Label layoutX="250.0" layoutY="91.0" text="Choose your name" />
+    <Label layoutX="252.0" layoutY="247.0" text="Choose your color" />
+    <ChoiceBox fx:id="playerRace" layoutX="255.0" layoutY="185.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Packer" />
+          <String fx:value="Spheroid" />
+          <String fx:value="Humanoid" />
+          <String fx:value="Leggite" />
+          <String fx:value="Flapper" />
+          <String fx:value="Bonziod" />
+          <String fx:value="Mechtron" />
+          <String fx:value="Gollumer" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <Label layoutX="254.0" layoutY="169.0" text="Choose your race" />
+    <Label layoutX="251.0" layoutY="42.0" text="Player">
+      <font>
+        <Font size="24.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label fx:id="playerNumber" font="$x1" layoutX="325.0" layoutY="42.0" text="1" />
+    <Button fx:id="createButton" layoutX="254.0" layoutY="329.0" mnemonicParsing="false" text="Create Player!" />
+    <Label fx:id="playerInfo" layoutX="268.0" layoutY="361.0" text="" />
+  </children>
+</AnchorPane>

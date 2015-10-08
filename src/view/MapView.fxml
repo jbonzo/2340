@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="mapPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.MapController">
+  <children>
+    <GridPane fx:id="map" layoutX="0.0" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="667.0">
+      <children>
+        <Button id="btn50" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="5" />
+        <Button id="btn60" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="6" />
+        <Button id="btn70" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="7" />
+        <Button id="btn80" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="8" />
+        <Button id="btn40" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="4" />
+        <Button id="btn41" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+        <Button id="btn42" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <Button id="btn43" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+        <Button id="btn51" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+        <Button id="btn61" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+        <Button id="btn71" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+        <Button id="btn81" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+        <Button id="btn52" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+        <Button id="btn62" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+        <Button id="btn72" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+        <Button id="btn82" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+        <Button id="btn53" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+        <Button id="btn63" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+        <Button id="btn73" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+        <Button id="btn21" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Button id="btn20" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="2" />
+        <Button id="btn11" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Button id="btn01" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.rowIndex="1" />
+        <Button id="btn83" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+        <Button id="btn10" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="1" />
+        <Button id="btn02" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.rowIndex="2" />
+        <Button id="btn03" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.rowIndex="3" />
+        <Button id="btn84" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+        <Button id="btn74" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+        <Button id="btn31" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <Button id="btn30" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="3" />
+        <Button id="btn12" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Button id="btn04" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.rowIndex="4" />
+        <Button id="btn33" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Button id="btn23" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Button id="btn13" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Button id="btn34" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <Button id="btn24" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Button id="btn14" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <Button id="btn22" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Button id="btn32" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Button id="btn64" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+        <Button id="btn54" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+        <Button id="btn44" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+        <Button id="btn00" maxHeight="10000.0" maxWidth="10000.0" mnemonicParsing="false" onAction="#onGridButtonAction" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints percentWidth="50.0" />
+        <ColumnConstraints percentWidth="50.0" />
+        <ColumnConstraints percentWidth="50.0" />
+        <ColumnConstraints percentWidth="50.0" />
+        <ColumnConstraints percentWidth="50.0" />
+      </columnConstraints>
+      <padding>
+        <Insets />
+      </padding>
+      <rowConstraints>
+        <RowConstraints percentHeight="50.0" />
+        <RowConstraints percentHeight="50.0" />
+        <RowConstraints percentHeight="50.0" />
+        <RowConstraints percentHeight="50.0" />
+        <RowConstraints minHeight="10.0" percentHeight="50.0" prefHeight="30.0" />
+      </rowConstraints>
+    </GridPane>
+    <Label fx:id="mapTimeLabel" layoutX="594.0" layoutY="535.0" text="">
+      <font>
+        <Font size="20.0" />
+      </font>
+    </Label>
+      <Label fx:id="turnLabel" layoutX="14.0" layoutY="535.0" text="">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+  </children>
+</AnchorPane>

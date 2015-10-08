@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="town" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="control.TownController">
+  <children>
+    <Button layoutX="120.0" layoutY="129.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="120.0" text="Farming Outfitter" />
+    <Button layoutX="240.0" layoutY="129.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="120.0" text="Energy Outfitter" />
+    <Button layoutX="360.0" layoutY="129.0" mnemonicParsing="false" onAction="#onStoreButtonClicked" prefHeight="60.0" prefWidth="120.0" text="Mule Store" />
+    <Button layoutX="480.0" layoutY="129.0" mnemonicParsing="false" onAction="#onPubButtonClicked" prefHeight="60.0" prefWidth="120.0" text="Pub" />
+    <Label layoutX="271.0" layoutY="26.0" text="Town">
+      <font>
+        <Font size="24.0" />
+      </font>
+    </Label>
+    <Button layoutX="0.0" layoutY="129.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="120.0" text="Land Office" />
+    <Button fx:id="btnMap" layoutX="247.0" layoutY="322.0" mnemonicParsing="false" onAction="#onMapButtonClicked" text="Back To Map" />
+    <Label fx:id="townTimeLabel" layoutX="594.0" layoutY="535.0" text="">
+      <font>
+        <Font size="20.0" />
+      </font>
+    </Label>
+    <Label fx:id="townTurnLabel" layoutX="14.0" layoutY="535.0" prefHeight="25.0" text="">
+      <font>
+        <Font size="20.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>

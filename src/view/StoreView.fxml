@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="town" fx:id="tglBuySell" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.StoreController">
+    <children>
+        <Button fx:id="btnFood" layoutX="170.0" layoutY="131.0" mnemonicParsing="false" onAction="#btnFood_Action" prefHeight="60.0" prefWidth="120.0" text="Food" />
+        <Button fx:id="btnEnergy" layoutX="312.0" layoutY="131.0" mnemonicParsing="false" onAction="#btnEnergy_Action" prefHeight="60.0" prefWidth="120.0" text="Energy" />
+        <Button fx:id="btnOre" layoutX="456.0" layoutY="130.0" mnemonicParsing="false" onAction="#btnOre_Action" prefHeight="60.0" prefWidth="120.0" text="Ore" />
+        <Label layoutX="271.0" layoutY="26.0" text="Store">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnMule" layoutX="23.0" layoutY="131.0" mnemonicParsing="false" onAction="#btnMule_Action" prefHeight="60.0" prefWidth="120.0" text="Mule" />
+        <Button fx:id="btnTown" layoutX="247.0" layoutY="322.0" mnemonicParsing="false" onAction="#btnTown_Action" text="Back To Town" />
+      <RadioButton layoutX="293.0" layoutY="257.0" mnemonicParsing="false" text="Buying">
+         <toggleGroup>
+            <ToggleGroup fx:id="grpBuySell" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="233.0" layoutY="257.0" mnemonicParsing="false" selected="true" text="Selling" toggleGroup="$grpBuySell" />
+      <Label fx:id="lblMoney" layoutX="23.0" layoutY="292.0" text="You have $" />
+
+        <Label fx:id="storeTimeLabel" layoutX="594.0" layoutY="535.0" text="">
+          <font>
+            <Font size="20.0" />
+          </font>
+        </Label>
+        <Label fx:id="storeTurnLabel" layoutX="14.0" layoutY="535.0" prefHeight="25.0" text="">
+          <font>
+            <Font size="20.0" />
+          </font>
+        </Label>
+
+    </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0"
+            prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2"
+            fx:controller="control.GameConfigController">
+  <children>
+    <Label layoutX="255.0" layoutY="88.0" text="Select a difficulty" />
+    <Label alignment="CENTER" layoutX="193.0" layoutY="36.0" text="Game Configuration" textAlignment="LEFT">
+      <font>
+        <Font size="24.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Button fx:id="btnContinue" layoutX="268.0" layoutY="329.0" mnemonicParsing="false" text="Continue" />
+    <ChoiceBox fx:id="cbDifficulty" layoutX="255.0" layoutY="111.0" prefWidth="89.9998779296875">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Beginner" />
+          <String fx:value="Standard" />
+          <String fx:value="Tournament" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <Label layoutX="253.0" layoutY="167.0" text="Select a map type" />
+    <ChoiceBox fx:id="cbMapType" layoutX="251.0" layoutY="190.0" prefWidth="97.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Standard" />
+          <String fx:value="Random" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <RadioButton id="rdobtn2Players" layoutX="274.0" layoutY="270.0" mnemonicParsing="false" prefHeight="21.0" text="2">
+      <toggleGroup>
+        <ToggleGroup fx:id="grpNumPlayers" />
+      </toggleGroup>
+    </RadioButton>
+    <RadioButton id="rdobtn3Players" layoutX="306.0" layoutY="270.0" mnemonicParsing="false" prefHeight="21.0" text="3" toggleGroup="$grpNumPlayers" />
+    <RadioButton id="rdobtn4Players" layoutX="338.0" layoutY="270.0" mnemonicParsing="false" prefHeight="21.0" text="4" toggleGroup="$grpNumPlayers" />
+    <Label layoutX="237.0" layoutY="251.0" text="Select number of players" />
+    <RadioButton id="rdobtn2Players" fx:id="rdobtn1Player" layoutX="243.0" layoutY="270.0" mnemonicParsing="false" prefHeight="21.0" text="1" toggleGroup="$grpNumPlayers">
+      <toggleGroup>
+        <ToggleGroup />
+      </toggleGroup>
+    </RadioButton>
+  </children>
+</AnchorPane>
